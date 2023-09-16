@@ -84,7 +84,7 @@ body {
 }
 
 .padding-lr {
-    padding: 0 10px;
+    padding: 0 30px;
 }
 
 .padding-b {
@@ -386,11 +386,81 @@ li h4 {
 }
 aside h2{
     font-size: 3.15em;
-    max-width: 30%;
+    max-width: 50%;
     color: var(--color-text-business);
 }
 .white-bottom-button{
     background-color: var(--color-secondary-text);
-    padding: 10px 60px;
     color: var(--color-main-text);
+    padding: 15px 60px;
+    font-weight: 300;
+}
+.mid-screen-box{
+    max-width: 1000px;
+    height: 50%;
+}
+.mid-screen-box > div{
+    margin: 0px 60px 50px 60px;
+}
+
+.question{
+    max-width: 1000px;
+    margin: 150px auto;
+}
+.question h2{
+    color: var(--color-main-text);
+    padding-bottom: 50px;
+}
+details{
+    border-top: 1px solid var(--color-border-box);
+    border-bottom: 1px solid var(--color-border-box);
+    padding: 40px 0;
+    font-size: 1.1em;
+}
+.summary-center{
+    border: none;
+}
+
+summary .padding-lr{
+    cursor: pointer;
+}
+details p{
+    padding: 10px;
+}
+
+/* footer */
+footer{
+    background-color: var(--color-bg-footer);
+    color: var(--color-secondary-text);
+}
+.footer-content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.list-container{
+    padding-top: 100px;
+}
+h5{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.list-container li{
+    padding-bottom: 10px;
+}
+.language{
+    padding: 50px 0;
+    margin: 100px 85% 0 auto;
+    border-top: 1px solid var(--color-secondary-text);
+    color: var(--color-text-light);
+}
+.language i{
+    padding-right: 5px;
+}
+
+
+select{
+    background-color: var(--color-bg-footer);
+    color: var(--color-text-light);
+    border: none;
+    font-size: 1em;
 }
