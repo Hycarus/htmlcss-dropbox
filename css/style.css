@@ -323,35 +323,51 @@ li h4 {
 .box-one {
     background-color: var(--color-box-1);
 }
-
+.box-one:hover{
+    border: 20px solid #c3e7be;
+}
 .box-two {
     background-color: var(--color-box-2);
 }
-
+.box-two:hover{
+    border: 20px solid #5b263b;
+}
 .box-three {
     background-color: var(--color-box-3);
 }
-
+.box-three:hover{
+    border: 20px solid #cf384f;
+}
 .box-four {
     background-color: var(--color-box-4);
 }
-
+.box-four:hover{
+    border: 20px solid #d9e2ea;
+}
 .box-five {
     background-color: var(--color-box-5);
 }
-
+.box-five:hover{
+    border: 20px solid #4ba4c7;
+}
 .box-six {
     background-color: var(--color-box-6);
 }
-
+.box-six:hover{
+    border: 20px solid #fd5454;
+}
 .box-seven {
     background-color: var(--color-box-7);
 }
-
+.box-seven:hover{
+    border: 20px solid #2c3c7c;
+}
 .box-eight {
     background-color: var(--color-box-8);
 }
-
+.box-eight:hover{
+    border: 20px solid #ffe570;
+}
 .big-box {
     background-color: var(--color-box-big);
     padding: 50px;
@@ -464,3 +480,4 @@ select{
     border: none;
     font-size: 1em;
 }
+
