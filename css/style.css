@@ -473,6 +473,15 @@ details p{
 #login{
     font-size: 100%;
 }
+#logo-google{
+    width: 70%;
+}
+.box-1{
+    width: 10%;
+}
+.box-2{
+    width: 90%;
+}
 /* footer */
 footer{
     background-color: var(--color-bg-footer);
@@ -507,4 +516,3 @@ select{
     border: none;
     font-size: 1em;
 }
-
