@@ -206,7 +206,7 @@ nav {
 .relative{
     position: relative;
 }
-.relative ul{
+.absolute{
     position: absolute;
 }
 .none{
