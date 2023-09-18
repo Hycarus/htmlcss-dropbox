@@ -28,7 +28,7 @@
     --color-text-business: #64082b;
     --color-button-hover: #5a99ff;
     --color-sub-menu: #d5d5d5;
-    --color-nav-hoover: #a9a9a9;
+    --color-nav-hoover: #b5b4b4;
     --width: 100vw;
 }
 
@@ -51,6 +51,9 @@ html{
 }
 .space-between {
     justify-content: space-between;
+}
+.flex-column{
+    flex-direction: column;
 }
 .column-gap {
     column-gap: 60px;
@@ -75,6 +78,9 @@ html{
 }
 .padding-5{
     padding: 5px 10px;
+}
+.padding-15{
+    padding: 15px 20px;
 }
 .padding {
     padding: 10px 0;
@@ -306,6 +312,44 @@ li h4 {
 #aziende-partner{
     scroll-margin-top: -100px;
 }
+
+/* main accedi */
+#accedi main{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.login{
+    width: 500px;
+    margin: 0 auto 150px;
+}
+#accedi h2{
+    margin: 150px auto 30px auto;
+}
+.border-box.padding-15{
+    margin-bottom: 30px;
+}
+.font-size{
+    font-size: 1.5em;
+} 
+.border-box.padding-15 a{
+    padding-left: 20px;
+}
+.fa-apple{
+    font-size: 2em;
+}
+.email{
+    font-size: 1.5em;
+}
+.mail{
+    padding-bottom: 10px;
+    font-size: 0.8em;
+}
+.or{
+    padding-bottom: 20px;
+}
+.padding-15.text-center.button-blue{
+    margin-top: 30px;
+}
 /* aside  */
 .box-one {
     background-color: var(--color-box-1);
@@ -426,7 +470,9 @@ details p{
 .white-bottom-button:hover{
     box-shadow: 5px 5px 20px var(--color-main-text);
 }
-
+#login{
+    font-size: 100%;
+}
 /* footer */
 footer{
     background-color: var(--color-bg-footer);
