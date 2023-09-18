@@ -27,7 +27,8 @@
     --color-text-light: #a1a1a1;
     --color-text-business: #64082b;
     --color-button-hover: #5a99ff;
-    --color-nav-hoover: #d5d5d5;
+    --color-sub-menu: #d5d5d5;
+    --color-nav-hoover: #a9a9a9;
     --width: 100vw;
 }
 
@@ -210,12 +211,13 @@ nav {
     position: absolute;
     left: 0;
     min-width: 200px;
+    box-shadow: 5px 10px 20px var(--color-main-text);
 }
 .none{
     display: none;
     padding: 10px;
     line-height: normal;
-    background-color: var(--color-nav-hoover);
+    background-color: var(--color-sub-menu);
 }
 .hover:hover .none{
     display: block;
@@ -297,6 +299,12 @@ li h4 {
 }
 .white-button:hover a{
     box-shadow: 5px 5px 20px var(--color-main-text);
+}
+#piani, #prezzi, #prova-gratuita, #faq, #dropbox-business{
+    scroll-margin-top: 100px;
+}
+#aziende-partner{
+    scroll-margin-top: -100px;
 }
 /* aside  */
 .box-one {
