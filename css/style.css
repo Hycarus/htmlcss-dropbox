@@ -340,15 +340,20 @@ li h4 {
 .email{
     font-size: 1.5em;
 }
+.or{
+    padding-bottom: 20px;
+}
 .mail{
     padding-bottom: 10px;
     font-size: 0.8em;
 }
-.or{
-    padding-bottom: 20px;
-}
+
 .padding-15.text-center.button-blue{
     margin-top: 30px;
+}
+.border{
+    border-top: 1px solid var(--color-border-box);
+    width: 40%;
 }
 /* aside  */
 .box-one {
