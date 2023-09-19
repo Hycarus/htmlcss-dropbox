@@ -402,6 +402,11 @@ li h4 {
 .big-box {
     background-color: var(--color-box-big);
     padding: 50px;
+    height: calc(100vw / 3);
+}
+.big-box .scroll-overflow{
+    overflow-y: auto;
+    max-height: 50%;
 }
 .img-white {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(132deg) brightness(103%) contrast(103%);
